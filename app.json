@@ -1,30 +1,35 @@
 {
   "expo": {
-    "name": "AwesomeProject",
+    "name": "מחשבון מיסים לשכירים לשנת 2023",
     "slug": "AwesomeProject",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://israel-trade.net/int-org/files/2013/07/pay-income-tax-online-02.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "taxcalc.ramybachayev"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "https://israel-trade.net/int-org/files/2013/07/pay-income-tax-online-02.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "taxcalc.ramybachayev"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "https://israel-trade.net/int-org/files/2013/07/pay-income-tax-online-02.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b128cd66-20d0-4325-bb78-36f9279cd5e3"
+      }
     }
   }
 }
